@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="#e5e6eb">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:paddingLeft="15dp"
+            android:layout_height="?attr/actionBarSize">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="FAQ"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView9" />
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="12dp"
+            android:background="#ffffff"
+            card_view:cardElevation="1dp">
+<ListView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listView1"
+    android:scrollbars="none"
+    android:layout_below="@+id/faq_id">
+
+
+</ListView>
+        </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

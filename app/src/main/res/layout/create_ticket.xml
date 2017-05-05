@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="420dp">
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:text="Name"
+                    android:gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp"/>
+                <EditText android:layout_width="267dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/name"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp">
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:text="Email"
+                    android:gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp"/>
+
+                <EditText android:layout_width="267dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/email"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp">
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:text="Mobile"
+                    android:gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp"/>
+                <EditText android:layout_width="267dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mobile"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp">
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:text="Product Name"
+                    android:gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp"/>
+                <EditText android:layout_width="267dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ProductName"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp">
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:text="Model"
+                    android:gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp"/>
+                <EditText android:layout_width="267dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/model"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp">
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:text="Serial No"
+                    android:gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp"/>
+                <EditText android:layout_width="267dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ser_no"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp">
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:text="Quantity"
+                    android:gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp"/>
+                <EditText android:layout_width="267dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/qty"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="450dp"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp">
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:text="Product Description"
+                    android:gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp"/>
+                <EditText android:layout_width="267dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Description"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="0dp" />
+            </LinearLayout>
+
+            <Button android:layout_width="190dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/submit"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:background="#000033"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
+

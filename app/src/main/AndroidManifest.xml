@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deva.androiduser2.hi_focus">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/iconss"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Product.Profile"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AboutActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ContactActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Product.ProductsDetails"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ProductActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Product.GetCategory"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Product.GetProductsList"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Product.GetProductsSpecifications1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Product.GetProductsSpecifications"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FQA.GetFaqListActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FQA.GetFaqDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".HIFOCUS"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Product.Ticket.Ticket"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Product.Ticket.PopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeDialog" />
+        <activity android:name=".Product.Ticket.EditTicketActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ProductLogInActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Description"
+            android:theme="@style/AppThemeDialog"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SupportEnquiry.SupportEnquiry"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
